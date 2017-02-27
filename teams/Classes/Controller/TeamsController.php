@@ -49,7 +49,7 @@ class TeamsController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     public function listAction()
     {
         $teams = $this->teamsRepository->findAll();
-        $this->view->assign('teams', $teams);
+        $this->view->assign('teamss', $teams);
     }
     
     /**
